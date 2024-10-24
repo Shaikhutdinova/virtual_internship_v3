@@ -1,18 +1,26 @@
 #java specific
 *.class
 *.jar
+*.war
 
 #log specific
 *.log
+*.tmp`
+*.bak`
 
 #Mac
 **/.DS_Store
+
+#Windows
+Thumbs.db
+
 
 ### Gradle ###
 .gradle
 **/build/
 **/logs/
 **/out/
+
 
 ### STS ###
 .apt_generated
@@ -27,3 +35,11 @@
 *.iws
 *.iml
 *.ipr
+
+#Locale configuration files
+*.local
+*.env
+
+#dependency files
+node_modules/
+lib/
