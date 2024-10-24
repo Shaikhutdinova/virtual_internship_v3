@@ -14,5 +14,4 @@ class TravelCalculatePremiumServiceImpl implements TravelCalculatePremiumService
                 request.getAgreementDateFrom(), request.getAgreementDateTo()
         );
     }
-
 }
